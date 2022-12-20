@@ -1,0 +1,46 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.3 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                 Transient Analysis Optimizer of VarFreq                  ***
+***                           06/03/2021 14:16:44                            ***
+********************************************************************************
+
+Find:
+   R26 Low=58Meg High=65Meg 
+
+That:
+   Equates Frequency(V(6),1,25) To=1
+
+Objective Function = Sum of the differences between the values of "That Expression" and the "To" values.
+
+Minimizing the Objective Function
+
+Start With:
+   Existing
+
+Powell:
+   Start with:R26=57MEG 
+   Best: R26=61.041395MEG Percent=30.820498m
+Hooke:
+   Start with:R26=57MEG 
+   Best: R26=61.963625MEG Percent=4.006456
+Levenberg-Marquardt:
+   Start with:R26=57MEG 
+   Best: R26=61.963625MEG Percent=2.429102
+Differential Evolution:
+   Start with:R26=57MEG 
+   Best: R26=58.237346MEG Percent=0
+
+Best so far Differential Evolution: R26=58.237346MEG Percent=0
+
+
+Final Result:
+   Differential Evolution
+   Start:   R26=57MEG 
+   Result:   R26=58.237346MEG Percent=0
+
+Info:
+   Time=52.437 sec
+   RMS Error=0
+   Percent Error=2.429102
